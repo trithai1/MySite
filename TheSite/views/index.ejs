@@ -2,10 +2,25 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' type = 'text/css' href='/stylesheets/style.css' />
+    <style type = 'text/css'>
+    	#title{
+    		text-align: center;
+    		margin: 0;
+    	}
+	</style>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <section>
+  	<h1 id = 'title'><%= title %></h1>  	
+  	<hr>
+  	<h1 class = 'header'>About</h1>
+  	<div class = 'sidelist'>
+	  	<ul>
+	  		<li>About</li>
+	  		<li>Projects</li>
+	  	</ul>
+  	</div>
+  </section>
   </body>
 </html>

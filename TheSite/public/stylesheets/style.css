@@ -6,3 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+	font-size: 30px;
+	margin-top: 0;
+}
+
+hr{
+	color: black;
+}
+
+.sidelist{
+	border: 2px solid black;
+	position: fixed;
+	width: 15%;
+	left: 10px;
+}
