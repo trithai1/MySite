@@ -12,11 +12,30 @@
     	#sl_list{
     		font-size: 16px;
     	}
+
+    	#profile_pic{
+    		width: 35%;
+    		height: 35%;
+    	}
+
+    	#my_info{
+    		position: fixed;
+    		left: 18%;
+    		top: 12%;
+    	}
+
+    	#my_desc{
+    		border: 2px, solid, black;
+    		
+    		left: 700px;
+    		top: 80px;
+    	}
 	</style>
   </head>
   <body>
   	<h1 id = 'title'><%= title %></h1>  	
   	<hr>
+
   	<section>
   		<h1 class = 'header'>About</h1>
   		<div class = 'sidelist'>
@@ -26,5 +45,14 @@
 	  		</ul>
   		</div>
   	</section>
+
+  	<div id="my_info">
+  		<img id="profile_pic" src="/images/default-profile-pic.jpg" alt="Profile Pic"/>
+  		<div id="my_desc">
+  			<p>
+  				Hello World
+  			</p>
+  		</div>
+  	</div>
   </body>
 </html>
